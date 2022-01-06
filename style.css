@@ -1,0 +1,136 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    #header {
+        background-color: rgb(249, 255, 255);
+    }
+    
+    .flexible {
+        display: flex;
+        margin-bottom: 100px;
+        padding: 5%;
+    }
+    
+    .title {
+        border-left: 3px solid rgb(156, 17, 248);
+        padding-left: 12px;
+        font-weight: 500;
+    }
+    
+    .sub-heading {
+        margin: 15px;
+    }
+    
+    h1 {
+        font-size: 55px;
+    }
+    
+    h2 {
+        font-size: 36px;
+    }
+    
+    .half-width {
+        width: 50%;
+        padding-left: 5%;
+    }
+    
+    .half-width img {
+        width: 80%;
+    }
+    
+    .btn {
+        text-decoration: none;
+        background-image: linear-gradient(45deg, #BB7480, #632BB3);
+        padding: 10px 40px;
+        border-radius: 5px;
+        color: white;
+        font-weight: 700;
+        margin-top: 50px;
+    }
+    
+    span {
+        color: #884A9D
+    }
+    
+    p {
+        margin-bottom: 30px;
+        font-size: 18px;
+    }
+    
+    .scroll {
+        margin-top: 310px;
+        font-size: 14px;
+    }
+    /* hero end */
+    
+    .section-title {
+        text-align: center;
+        font-size: 42px;
+    }
+    
+    .all-card {
+        display: flex;
+        justify-content: space-around;
+        padding: 50px;
+    }
+    
+    .card {
+        width: 250px;
+        border-radius: 15px;
+    }
+    
+    .div-img img {
+        width: 100%;
+    }
+    
+    .card-container {
+        padding: 15px;
+    }
+    
+    #card-1 {
+        background: rgba(79, 157, 166, 0.1);
+    }
+    
+    #card-2 {
+        background: rgba(255, 89, 89, 0.1);
+    }
+    
+    #card-3 {
+        background: #FFF4D6;
+    }
+    /* works */
+    
+    .app-img {
+        padding: 20px;
+        width: 300px;
+        height: 300px;
+    }
+    
+    .card-container p {
+        margin-top: 10px;
+    }
+    
+    .f-list {
+        list-style: none;
+        margin-top: 10px;
+        font-weight: 400;
+        color: rgb(54, 56, 56);
+        margin-top: 6px;
+    }
+    /* footer */
+    
+    footer {
+        background: #111;
+        padding-top: 10px;
+        color: #fff;
+    }
+    
+    .footer-content {
+        text-align: center;
+        font-weight: 400;
+        margin: 10px auto;
+        line-height: 28px;
+    }
